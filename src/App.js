@@ -44,7 +44,6 @@ function App() {
             <Recipe key={recipe.recipe.label}
             title={recipe.recipe.label} calories={recipe.recipe.calories} 
             image={recipe.recipe.image} link={recipe.recipe.url}
-            ingredients={recipe.recipe.ingredients}
             diet={recipe.recipe.dietLabels}
             />
           ))}
